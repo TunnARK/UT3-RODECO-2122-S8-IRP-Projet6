@@ -78,13 +78,13 @@ publishing:
     enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
-    assetsPrefix: /template.publish.github-action
+    assetsPrefix: /UT3-RODECO-2122-S8-IRP-Projet6
     copyAssets: true
     siteHierarchies:
         - root
     enableSiteLastModified: true
     siteRootDir: docs
-    siteUrl: 'https://dendronhq.github.io'
+    siteUrl: 'https://tunnrka.github.io'
     enableFrontmatterTags: true
     enableHashesForFMTags: false
     enableRandomlyColoredTags: true
