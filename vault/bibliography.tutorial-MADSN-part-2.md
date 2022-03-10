@@ -1,8 +1,8 @@
 ---
 id: u3fmweoehy3ch9js60uhgac
-title: a-tutorial-on-modeling-and-analysis-of-DSN-part-2
+title: Tutorial MADSN Part 2
 desc: ''
-updated: 1646934777043
+updated: 1646939958172
 created: 1646917838065
 ---
 
