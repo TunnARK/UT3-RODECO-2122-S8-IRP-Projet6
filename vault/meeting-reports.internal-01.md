@@ -1,8 +1,8 @@
 ---
 id: 7xjybpp4ixe05yv96fgb8e1
-title: Internal Meeting of 2022/03/10 11:00-11:30
+title: Internal Meeting 01 of 2022/03/10 11:00-11:30
 desc: ''
-updated: 1646938429211
+updated: 1646996463002
 created: 1646934392311
 ---
 
@@ -36,4 +36,4 @@ created: 1646934392311
   - Jeudi 17 mars 9h-10h
   - Vendredi 18 mars 9h ou 16h
 - Prochain RDV interne
-  - Lundi 14 mars 9h-10h (U6 ou BU)
+  - **Lundi 14 mars 9h-10h (U6 ou BU)**
