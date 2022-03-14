@@ -2,7 +2,7 @@
 id: ammqr9nu8k1v816gwcd70nx
 title: External Meeting 01 of 2022/03/10 10:00-11:00
 desc: ''
-updated: 1647251818069
+updated: 1647253544255
 created: 1646934261424
 ---
 
@@ -11,7 +11,7 @@ created: 1646934261424
 - 2) Présentation projet
 - 3) Conseil de travail
 
-## Debrief
+## Débrief
 1) Mode d'évaluation
   - Rapport 50%
   - Soutenance 50%
@@ -25,6 +25,6 @@ created: 1646934261424
 3) Conseil de travail
   - s'organiser avec ordre du jour et todo listes
 
-## ToDo
+## À faire
 - [x] Etablir plan de travail
 - [x] Poser le prochain RDV avec le tuteur

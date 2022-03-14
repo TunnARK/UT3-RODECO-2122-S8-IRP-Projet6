@@ -1,15 +1,14 @@
 ---
 id: z1jeiewsarjakatw996wv1n
-title: Internal Meeting 01 of 2022/03/14 09:00-11:00
+title: Internal Meeting 02 of 2022/03/14 09:00-11:00
 desc: ''
-updated: 1647252486476
+updated: 1647253727802
 created: 1647246265091
 ---
 
 ## Ordre du jour
 - 1) Discuter des deux articles
 - 2) Plannifier la prochaine reunion externe
-
 
 ## Débrief
 - Decision d'écrire tous en français
@@ -26,7 +25,7 @@ created: 1647246265091
 - Abelson juste une extension de DeGroot en continue
     - différence Abelson semble plus cibler sur le clivage (est-ce dû au passage de discret à continue)
 - changement de décision on se concentre sur DeGroot et Abelson's tous ensemble
-- Quel est l'objectif du projet? application aux réseaux sociaux ou implentation matlab
+- Objectif: implentation matlab et application aux réseaux sociaux (optionnel)
 
 # Plan d'études des modèles
 - 1) Comprendre les modèles
@@ -40,14 +39,11 @@ created: 1647246265091
 - 3) Regarder les références bibliographiques
 - 4) Réaliser une simulation
 
-
-
-## ToDo
+## À faire
 - Appliquer le plan d'étude au deux premiers modèles
 
-## Deadlines
-
+## Dates limites
 - Prochain RDV interne
-  - **Jeudi 17 mars 8:00-09:00 (chercher une salle)**
+  - **Jeudi 17 mars 08:00-09:00 (chercher une salle)**
 - Prochain RDV avec le tuteur
-    **Jeudi 17 maras 9:00-10:00 (salle TP)**
+    **Jeudi 17 maras 09:00-10:00 (salle TP)**
