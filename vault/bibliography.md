@@ -1,8 +1,8 @@
 ---
 id: 8zwrqcy9pi5s9uv92og7shj
-title: Bibliography
+title: Bibliographie
 desc: ''
-updated: 1647254301494
+updated: 1647254745254
 created: 1646917462759
 ---
 
