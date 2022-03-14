@@ -1,14 +1,14 @@
 ---
 id: wn8PE1RhG0znK1alrGFYv
-title: Welcome to our study project on DSNA
+title: Bienvenue
 desc: ''
-updated: 1646996419337
+updated: 1647254605424
 created: 1631901573363
 ---
 
-This website is a one-stop-shop gathering all the work related to our study project on Dynamical Social Network Analysis (DSNA).
+Ce site web est un guichet unique rassemblant tous les travaux liés à notre projet d'étude sur l'analyse dynamique des réseaux sociaux (DSNA).
 
-- [Project Description](https://www.dropbox.com/s/lb4pdnt8gmrgxhu/IRP.Projet6.Sujet.pdf?dl=0)
+- [Description du projet](https://www.dropbox.com/s/lb4pdnt8gmrgxhu/IRP.Projet6.Sujet.pdf?dl=0)
 
 ---
 

@@ -1,12 +1,12 @@
 ---
 id: ammqr9nu8k1v816gwcd70nx
-title: External Meeting 01 of 2022/03/10 10:00-11:00
+title: Réunion Externe du 2022/03/10 10:00-11:00
 desc: ''
-updated: 1647253544255
+updated: 1647254459172
 created: 1646934261424
 ---
 
-## Agenda
+## Ordre du jour
 - 1) Mode d'évaluation
 - 2) Présentation projet
 - 3) Conseil de travail

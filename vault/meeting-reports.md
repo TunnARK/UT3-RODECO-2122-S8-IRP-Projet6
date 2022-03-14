@@ -2,8 +2,8 @@
 id: fi8aght0i04uix61wylkwmn
 title: Meeting Reports
 desc: ''
-updated: 1646934112783
+updated: 1647254278140
 created: 1646919400228
 ---
 
-This page keeps track of our meeting reports.
+Cette page garde la trace de nos rapports de réunion.
