@@ -2,16 +2,14 @@
 id: ammqr9nu8k1v816gwcd70nx
 title: External Meeting 01 of 2022/03/10 10:00-11:00
 desc: ''
-updated: 1646938256695
+updated: 1647251818069
 created: 1646934261424
 ---
 
 ## Agenda
-1) Mode d'évaluation
-
-2) Présentation projet
-
-3) Conseil de travail
+- 1) Mode d'évaluation
+- 2) Présentation projet
+- 3) Conseil de travail
 
 ## Debrief
 1) Mode d'évaluation

@@ -2,16 +2,14 @@
 id: 7xjybpp4ixe05yv96fgb8e1
 title: Internal Meeting 01 of 2022/03/10 11:00-11:30
 desc: ''
-updated: 1646996463002
+updated: 1647251850246
 created: 1646934392311
 ---
 
 ## Agenda
-1) Etablir plan de travail
-
-2) Plannifier prochaine séance
-
-3) Décider du mode de communication
+- 1) Etablir plan de travail
+- 2) Plannifier prochaine séance
+- 3) Décider du mode de communication
 
 
 ## Débrief
