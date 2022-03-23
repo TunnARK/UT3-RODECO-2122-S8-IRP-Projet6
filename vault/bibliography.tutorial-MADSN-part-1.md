@@ -2,7 +2,7 @@
 id: v7fddwwn9fo76xrr17bg2xx
 title: Tutorial MADSN Part 1
 desc: ''
-updated: 1647476818874
+updated: 1648069815379
 created: 1646917827407
 ---
 > QUESTIONS: 
@@ -51,7 +51,7 @@ created: 1646917827407
 
 - **parameter**:
 
-    _matrix of influence weights_ $W = (w_ij)$ with  $w_{ij} \leq 0$
+    _matrix of influence weights_ $W = (w_{ij})$ with  $w_{ij} \leq 0$
 
 - the greater weight is assigned to agent $j$, the stronger is its influence on agent $i$
 
@@ -133,7 +133,7 @@ created: 1646917827407
 
 - row vector: $p(k+1)^T = p(k)^T W$
 
-- $W$ regular $\implies$ $p(\infty)^T = lim_{k\to\infty}p(k)^T = p(0)^T W^\infty$
+- $W$ regular $\implies$ $p(\infty)^T = lim_{\,k\to\infty}p(k)^T = p(0)^T W^\infty$
 
 - _regular chain_ (or _ergodic_) : a markov chain that forgets its history and converges to the unique stationary distribution
 
@@ -165,7 +165,108 @@ created: 1646917827407
 > Group with several stubborn agent influencing all other individuals $\implies$ model is **convergent**
 
 ### 4. Abelson's Models
-...
+
+- continuous counterpart of DeGroot's model (**nonlinear extension**)
+- introduced the _community cleavage_ problem (a.k.a. _Abelson's diversity puzzle_)
+
+#### 4.1. Abelson’s models of opinion dynamics
+
+- Alternative interpretation of French-DeGroot model:
+
+    (9): $\quad 1 - w_{ii} = \sum_{j \neq i} w_{ij} \implies x_i(k+1) - x_i(k) = \sum_{j \neq i} w_{ij}[x_j(k) - x_i(k)] \quad \forall i$
+
+- These $n=2$ [dyadic interactions](https://en.wikipedia.org/wiki/Dyad_(sociology)) show that “the attitude positions of two discussants [...] move toward each other”
+
+- Still true for simultaneous interactions of multiple agents:
+
+    Agent $i$ shifts its opinion $x_i(k)$ towards $x_j(k)$ when adjusting it by $\delta_{(j)}x_i(k)$
+
+    $x'_i = x_i + \delta_{(j)}x_i \implies |x_j - x'_i| = (1-w_{ij}) |x_j - x_i|$
+
+- $\delta_{(j)}x_i(k)$ is called the _resultant_ of these simultaneous adjustements
+
+- Continuous-time dynamics (10): $\quad  \dot x_i(t) = \sum_{j \neq i} a_{ij} (x_j(t) - x_i(t) \quad 1 \leq i \leq n$
+
+    with $A = (a_{ij})$ matrix of _infinitesimal influence weights_ (a.k.a. **_contact rates_**)
+    
+    A is **non-negative** but **not** necessarily **stochastic**
+
+- (10) also reads as:
+
+    The infinitesimal shift of the $i^th$ opinion $dx_i(t) = \dot x_i(t)dt$ is the **superposition of the infinitesimal’s shifts** $a_{ij}(x_j(t)−x_i(t))dt$ of agent $i$’s towards the influencers.
+
+
+- More generally (11):
+
+    $\dot x_i(t) = \sum_{j \neq i} a_{ij} g(x_i, x_j)(x_j(t) − x_i(t)) \quad \forall i$
+
+    with $g : \mathbb{R}\times\mathbb{R} \to (0;1]$ a **coupling function** (describes the _opinion assimilation_)
+
+- This section focuses on **linear Abelson's model**: 
+    
+    (12): $\quad \dot x(t) = -L[A] x(t)$
+    
+    with $L[A]$ _Laplacian natrix_
+
+- Dynamics like (12) are being studied in control theory as a continuous-time consensus algorithm
+
+#### 4.2. Convergence and consensus conditions
+
+- Corollary 6 applies to $L[A]$ and $\lambda_0 = 0$
+
+- Thus (12) is **Lyapunov stable** (yet not asympotically stable)
+
+- **Main difference** with French-DeGroot: (12) **always convergent**
+
+> Corollary 15 (convergence)
+>
+> $A$ non-negative $\quad \wedge \quad \exist \;\; P^\infty = lim_{\,t\to\infty} \; e^{-L[A]t} \implies x(t) \xrightarrow[ k \to \infty]{} x^\infty = P^\infty x(0)$
+
+- $P\infty$ is a **projection operator onto the Laplacian’s null space** $ker L[A] = {v | L[A]v = 0}$ and is closely **related to the graph’s structure**
+
+- (12) reaches a _consensus_ $\iff$ final opinions coincide $x_1^\infty = ... = x_n^\infty \quad \forall x(0)$ (initial condition)
+
+- consensus $\implies$ $P^\infty = \mathbb{1}_n \; p_\infty^T$
+
+> Theorem 16 (consensus vs graph connectivity)
+>
+> (12) reaches _consensus_ $\iff$
+> 
+> $\quad \quad \quad \mathscr{G}[A]$ **quasi-strongly connected** (i.e. has a directed spanning tree)
+>
+> $\quad\wedge\quad$ $lim_{\,t\to\infty} \; x_1(t) = ... = lim_{\,t\to\infty} \; x_n(t) = p_\infty^T x(0)$
+> 
+> $\quad\wedge\quad$ $p_\infty \in \mathbb{R}^n$ **non-negative** vector and uniquely defined by $\;\; p_\infty^T L[A] = 0 \;\;$ and $\;\; p_\infty^T \mathbb{1}_n = 1$
+
+- $p_\infty$ may be treated as a vector of agents' _social power_ or a centrality measure on the nodes of $\mathscr{G}[A]$
+
+- Discretization Method (from Abelson's model to French-DeGroot's model):
+
+> Lemma 17 (discretization)
+>
+> $\forall A$ non-negative $\quad\wedge\quad$ $\tau \geq 0$, $W_\tau = e^{-\tau L[A]$ **stochastic matrix** $\quad\wedge\quad$ $P^\infty = lim_{\,\tau\to\infty} W_\tau$ also **stochastic**
+>
+> Moreover, matrices $W_\tau$ have positive diagonal entries
+
+- this lemma can also be used for analysis of time-varying extensions of Abelson’s model
+
+- for more info on:
+    - consensus algorithms over time-varying graphs see [56, 100, 101, 103-108]
+    - general dunamic agents see [56,57, 109-111]
+    - nonlinear consensus algorithms [105, 112, 113]
+
+#### 4.3. The community cleavage problem
+
+> “Since universal ultimate agreement is an ubiquitous outcome of a very broad class of mathematical models, we are naturally led to inquire what on earth one must assume in order to generate the bimodal
+outcome of community cleavage studies.”
+
+- **_social cleavage_** = persistent disagreement among agents' opinions (e.g. _clustering_)
+
+- clsutering linked to the presence of _stubborn agents_ (i.e. _source nodes in the graph_)
+
+### 5. Cleavage and Prejudices: Taylor’s model
+
+...#tbc
 
 ## Liens de téléchargement
 
