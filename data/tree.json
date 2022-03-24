@@ -1,0 +1,100 @@
+{
+  "roots": [
+    {
+      "key": "wn8PE1RhG0znK1alrGFYv",
+      "title": "Bienvenue",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "8zwrqcy9pi5s9uv92og7shj",
+          "title": "Bibliographie",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "v7fddwwn9fo76xrr17bg2xx",
+              "title": "Tutorial MADSN Part 1",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "u3fmweoehy3ch9js60uhgac",
+              "title": "Tutorial MADSN Part 2",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "fi8aght0i04uix61wylkwmn",
+          "title": "Compte Rendu RDV",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "ammqr9nu8k1v816gwcd70nx",
+              "title": "Réunion Externe 01 du 2022/03/10 10:00-11:00",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "7xjybpp4ixe05yv96fgb8e1",
+              "title": "Réunion Interne 01 du 2022/03/10 11:00-11:30",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "z1jeiewsarjakatw996wv1n",
+              "title": "Réunion Interne 02 du 2022/03/14 09:00-11:00",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "i1h9fy878nk9zllswz8zfhx",
+              "title": "Réunion Interne 03 du 2022/03/17 08:00-09:00",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "eddlfeuwekwdqvsdkivf9fs",
+              "title": "Réunion Interne 04 du 2022/03/21 14:30-15:00",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "wn8PE1RhG0znK1alrGFYv": null,
+    "fi8aght0i04uix61wylkwmn": "wn8PE1RhG0znK1alrGFYv",
+    "eddlfeuwekwdqvsdkivf9fs": "fi8aght0i04uix61wylkwmn",
+    "i1h9fy878nk9zllswz8zfhx": "fi8aght0i04uix61wylkwmn",
+    "z1jeiewsarjakatw996wv1n": "fi8aght0i04uix61wylkwmn",
+    "7xjybpp4ixe05yv96fgb8e1": "fi8aght0i04uix61wylkwmn",
+    "ammqr9nu8k1v816gwcd70nx": "fi8aght0i04uix61wylkwmn",
+    "8zwrqcy9pi5s9uv92og7shj": "wn8PE1RhG0znK1alrGFYv",
+    "u3fmweoehy3ch9js60uhgac": "8zwrqcy9pi5s9uv92og7shj",
+    "v7fddwwn9fo76xrr17bg2xx": "8zwrqcy9pi5s9uv92og7shj"
+  }
+}

@@ -1,0 +1,998 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": "vault"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1648122947181,
+      "created": 1648122947181,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "wn8PE1RhG0znK1alrGFYv": {
+      "id": "wn8PE1RhG0znK1alrGFYv",
+      "title": "Bienvenue",
+      "desc": "",
+      "updated": 1647254605424,
+      "created": 1631901573363,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "eee5ccce21b99fee60b03a1c78fa5d32",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "8zwrqcy9pi5s9uv92og7shj",
+        "fi8aght0i04uix61wylkwmn"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "fi8aght0i04uix61wylkwmn": {
+      "id": "fi8aght0i04uix61wylkwmn",
+      "title": "Compte Rendu RDV",
+      "desc": "",
+      "updated": 1647254736849,
+      "created": 1646919400228,
+      "custom": {},
+      "fname": "meeting-reports",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "98a173d2a3728056e630e08ba72b52f1",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "ammqr9nu8k1v816gwcd70nx",
+        "7xjybpp4ixe05yv96fgb8e1",
+        "z1jeiewsarjakatw996wv1n",
+        "i1h9fy878nk9zllswz8zfhx",
+        "eddlfeuwekwdqvsdkivf9fs"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "eddlfeuwekwdqvsdkivf9fs": {
+      "id": "eddlfeuwekwdqvsdkivf9fs",
+      "title": "Réunion Interne 04 du 2022/03/21 14:30-15:00",
+      "desc": "",
+      "updated": 1647872670797,
+      "created": 1647868463132,
+      "custom": {},
+      "fname": "meeting-reports.internal-04",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b298a9470a4508671e13942881d7265d",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "meeting-reports.internal-04",
+            "id": "eddlfeuwekwdqvsdkivf9fs",
+            "vaultName": "vault"
+          },
+          "value": "user.RDF",
+          "alias": "@RDF",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 16,
+              "offset": 425
+            },
+            "end": {
+              "line": 17,
+              "column": 20,
+              "offset": 429
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.RDF"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "meeting-reports.internal-04",
+            "id": "eddlfeuwekwdqvsdkivf9fs",
+            "vaultName": "vault"
+          },
+          "value": "user.ACA",
+          "alias": "@ACA",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 22,
+              "offset": 431
+            },
+            "end": {
+              "line": 17,
+              "column": 26,
+              "offset": 435
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.ACA"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "meeting-reports.internal-04",
+            "id": "eddlfeuwekwdqvsdkivf9fs",
+            "vaultName": "vault"
+          },
+          "value": "user.CUA",
+          "alias": "@CUA",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 28,
+              "offset": 437
+            },
+            "end": {
+              "line": 17,
+              "column": 32,
+              "offset": 441
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.CUA"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "meeting-reports.internal-04",
+            "id": "eddlfeuwekwdqvsdkivf9fs",
+            "vaultName": "vault"
+          },
+          "value": "user.RTS",
+          "alias": "@RTS",
+          "position": {
+            "start": {
+              "line": 18,
+              "column": 17,
+              "offset": 458
+            },
+            "end": {
+              "line": 18,
+              "column": 21,
+              "offset": 462
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.RTS"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "meeting-reports.internal-04",
+            "id": "eddlfeuwekwdqvsdkivf9fs",
+            "vaultName": "vault"
+          },
+          "value": "user.RKA",
+          "alias": "@RKA",
+          "position": {
+            "start": {
+              "line": 18,
+              "column": 23,
+              "offset": 464
+            },
+            "end": {
+              "line": 18,
+              "column": 27,
+              "offset": 468
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.RKA"
+          }
+        }
+      ],
+      "anchors": {
+        "ordre-du-jour": {
+          "type": "header",
+          "text": "Ordre du jour",
+          "value": "ordre-du-jour",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "débrief": {
+          "type": "header",
+          "text": "Débrief",
+          "value": "débrief",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "à-faire": {
+          "type": "header",
+          "text": "À faire",
+          "value": "à-faire",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        },
+        "prochaines-dates": {
+          "type": "header",
+          "text": "Prochaines dates",
+          "value": "prochaines-dates",
+          "line": 34,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fi8aght0i04uix61wylkwmn",
+      "data": {}
+    },
+    "i1h9fy878nk9zllswz8zfhx": {
+      "id": "i1h9fy878nk9zllswz8zfhx",
+      "title": "Réunion Interne 03 du 2022/03/17 08:00-09:00",
+      "desc": "",
+      "updated": 1647868840487,
+      "created": 1647503134915,
+      "custom": {},
+      "fname": "meeting-reports.internal-03",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "877ac5298b88c6f611c6f30789a51b03",
+      "links": [],
+      "anchors": {
+        "ordre-du-jour": {
+          "type": "header",
+          "text": "Ordre du jour",
+          "value": "ordre-du-jour",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "débrief": {
+          "type": "header",
+          "text": "Débrief",
+          "value": "débrief",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "questions": {
+          "type": "header",
+          "text": "Questions",
+          "value": "questions",
+          "line": 21,
+          "column": 0,
+          "depth": 2
+        },
+        "dates-limites": {
+          "type": "header",
+          "text": "Dates limites",
+          "value": "dates-limites",
+          "line": 30,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fi8aght0i04uix61wylkwmn",
+      "data": {}
+    },
+    "z1jeiewsarjakatw996wv1n": {
+      "id": "z1jeiewsarjakatw996wv1n",
+      "title": "Réunion Interne 02 du 2022/03/14 09:00-11:00",
+      "desc": "",
+      "updated": 1647254523228,
+      "created": 1647246265091,
+      "custom": {},
+      "fname": "meeting-reports.internal-02",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "d9cf597ef67b4774b42eacdb1e4f8a9d",
+      "links": [],
+      "anchors": {
+        "ordre-du-jour": {
+          "type": "header",
+          "text": "Ordre du jour",
+          "value": "ordre-du-jour",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "débrief": {
+          "type": "header",
+          "text": "Débrief",
+          "value": "débrief",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "plan-détudes-des-modèles": {
+          "type": "header",
+          "text": "Plan d'études des modèles",
+          "value": "plan-détudes-des-modèles",
+          "line": 29,
+          "column": 0,
+          "depth": 1
+        },
+        "à-faire": {
+          "type": "header",
+          "text": "À faire",
+          "value": "à-faire",
+          "line": 41,
+          "column": 0,
+          "depth": 2
+        },
+        "dates-limites": {
+          "type": "header",
+          "text": "Dates limites",
+          "value": "dates-limites",
+          "line": 44,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fi8aght0i04uix61wylkwmn",
+      "data": {}
+    },
+    "7xjybpp4ixe05yv96fgb8e1": {
+      "id": "7xjybpp4ixe05yv96fgb8e1",
+      "title": "Réunion Interne 01 du 2022/03/10 11:00-11:30",
+      "desc": "",
+      "updated": 1647254495600,
+      "created": 1646934392311,
+      "custom": {},
+      "fname": "meeting-reports.internal-01",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "5977d3103da0cac6c1d4ecc7f55c6524",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "meeting-reports.internal-01",
+            "id": "7xjybpp4ixe05yv96fgb8e1",
+            "vaultName": "vault"
+          },
+          "value": "user.TOUS",
+          "alias": "@TOUS",
+          "position": {
+            "start": {
+              "line": 19,
+              "column": 7,
+              "offset": 486
+            },
+            "end": {
+              "line": 19,
+              "column": 12,
+              "offset": 491
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.TOUS"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "meeting-reports.internal-01",
+            "id": "7xjybpp4ixe05yv96fgb8e1",
+            "vaultName": "vault"
+          },
+          "value": "user.RDF",
+          "alias": "@RDF",
+          "position": {
+            "start": {
+              "line": 20,
+              "column": 7,
+              "offset": 521
+            },
+            "end": {
+              "line": 20,
+              "column": 11,
+              "offset": 525
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.RDF"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "meeting-reports.internal-01",
+            "id": "7xjybpp4ixe05yv96fgb8e1",
+            "vaultName": "vault"
+          },
+          "value": "tags.Agenda",
+          "alias": "#Agenda",
+          "position": {
+            "start": {
+              "line": 20,
+              "column": 48,
+              "offset": 562
+            },
+            "end": {
+              "line": 20,
+              "column": 55,
+              "offset": 569
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.Agenda"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "meeting-reports.internal-01",
+            "id": "7xjybpp4ixe05yv96fgb8e1",
+            "vaultName": "vault"
+          },
+          "value": "tags.Docs",
+          "alias": "#Docs",
+          "position": {
+            "start": {
+              "line": 20,
+              "column": 56,
+              "offset": 570
+            },
+            "end": {
+              "line": 20,
+              "column": 61,
+              "offset": 575
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.Docs"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "meeting-reports.internal-01",
+            "id": "7xjybpp4ixe05yv96fgb8e1",
+            "vaultName": "vault"
+          },
+          "value": "tags.Discussion",
+          "alias": "#Discussion",
+          "position": {
+            "start": {
+              "line": 20,
+              "column": 62,
+              "offset": 576
+            },
+            "end": {
+              "line": 20,
+              "column": 73,
+              "offset": 587
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.Discussion"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "meeting-reports.internal-01",
+            "id": "7xjybpp4ixe05yv96fgb8e1",
+            "vaultName": "vault"
+          },
+          "value": "user.CUA",
+          "alias": "@CUA",
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 7,
+              "offset": 595
+            },
+            "end": {
+              "line": 21,
+              "column": 11,
+              "offset": 599
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.CUA"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "meeting-reports.internal-01",
+            "id": "7xjybpp4ixe05yv96fgb8e1",
+            "vaultName": "vault"
+          },
+          "value": "user.RKA",
+          "alias": "@RKA",
+          "position": {
+            "start": {
+              "line": 22,
+              "column": 7,
+              "offset": 652
+            },
+            "end": {
+              "line": 22,
+              "column": 11,
+              "offset": 656
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.RKA"
+          }
+        }
+      ],
+      "anchors": {
+        "ordre-du-jour": {
+          "type": "header",
+          "text": "Ordre du jour",
+          "value": "ordre-du-jour",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "débrief": {
+          "type": "header",
+          "text": "Débrief",
+          "value": "débrief",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "à-faire": {
+          "type": "header",
+          "text": "À faire",
+          "value": "à-faire",
+          "line": 24,
+          "column": 0,
+          "depth": 2
+        },
+        "dates-limites": {
+          "type": "header",
+          "text": "Dates limites",
+          "value": "dates-limites",
+          "line": 30,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fi8aght0i04uix61wylkwmn",
+      "data": {}
+    },
+    "ammqr9nu8k1v816gwcd70nx": {
+      "id": "ammqr9nu8k1v816gwcd70nx",
+      "title": "Réunion Externe 01 du 2022/03/10 10:00-11:00",
+      "desc": "",
+      "updated": 1647254459172,
+      "created": 1646934261424,
+      "custom": {},
+      "fname": "meeting-reports.external-01",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "e135d541c8c9836290ec7632c4e5a21e",
+      "links": [],
+      "anchors": {
+        "ordre-du-jour": {
+          "type": "header",
+          "text": "Ordre du jour",
+          "value": "ordre-du-jour",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "débrief": {
+          "type": "header",
+          "text": "Débrief",
+          "value": "débrief",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "à-faire": {
+          "type": "header",
+          "text": "À faire",
+          "value": "à-faire",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fi8aght0i04uix61wylkwmn",
+      "data": {}
+    },
+    "8zwrqcy9pi5s9uv92og7shj": {
+      "id": "8zwrqcy9pi5s9uv92og7shj",
+      "title": "Bibliographie",
+      "desc": "",
+      "updated": 1647254745254,
+      "created": 1646917462759,
+      "custom": {},
+      "fname": "bibliography",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "0a4a0f005fbb9c59138ce914bb3b1fcb",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "v7fddwwn9fo76xrr17bg2xx",
+        "u3fmweoehy3ch9js60uhgac"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "u3fmweoehy3ch9js60uhgac": {
+      "id": "u3fmweoehy3ch9js60uhgac",
+      "title": "Tutorial MADSN Part 2",
+      "desc": "",
+      "updated": 1647254424732,
+      "created": 1646917838065,
+      "custom": {},
+      "fname": "bibliography.tutorial-MADSN-part-2",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "418a04f5e461d125f52df43913ba7b66",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "bibliography.tutorial-MADSN-part-2",
+            "id": "u3fmweoehy3ch9js60uhgac",
+            "vaultName": "vault"
+          },
+          "value": "tags.tbc",
+          "alias": "#tbc",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 7,
+              "offset": 28
+            },
+            "end": {
+              "line": 4,
+              "column": 11,
+              "offset": 32
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.tbc"
+          }
+        }
+      ],
+      "anchors": {
+        "points-à-retenir": {
+          "type": "header",
+          "text": "Points à retenir",
+          "value": "points-à-retenir",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "liens-de-téléchargement": {
+          "type": "header",
+          "text": "Liens de téléchargement",
+          "value": "liens-de-téléchargement",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "8zwrqcy9pi5s9uv92og7shj",
+      "data": {}
+    },
+    "v7fddwwn9fo76xrr17bg2xx": {
+      "id": "v7fddwwn9fo76xrr17bg2xx",
+      "title": "Tutorial MADSN Part 1",
+      "desc": "",
+      "updated": 1648069815379,
+      "created": 1646917827407,
+      "custom": {},
+      "fname": "bibliography.tutorial-MADSN-part-1",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "e670e6444106433d4f8c9e43cac25faa",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "bibliography.tutorial-MADSN-part-1",
+            "id": "v7fddwwn9fo76xrr17bg2xx",
+            "vaultName": "vault"
+          },
+          "value": "tags.tbc",
+          "alias": "#tbc",
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 6,
+              "offset": 397
+            },
+            "end": {
+              "line": 16,
+              "column": 10,
+              "offset": 401
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.tbc"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "bibliography.tutorial-MADSN-part-1",
+            "id": "v7fddwwn9fo76xrr17bg2xx",
+            "vaultName": "vault"
+          },
+          "value": "tags.tbc",
+          "alias": "#tbc",
+          "position": {
+            "start": {
+              "line": 262,
+              "column": 4,
+              "offset": 10293
+            },
+            "end": {
+              "line": 262,
+              "column": 8,
+              "offset": 10297
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.tbc"
+          }
+        }
+      ],
+      "anchors": {
+        "points-à-retenir": {
+          "type": "header",
+          "text": "Points à retenir",
+          "value": "points-à-retenir",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "résumé": {
+          "type": "header",
+          "text": "Résumé",
+          "value": "résumé",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
+        "3-french-degroot-opinion-pooling": {
+          "type": "header",
+          "text": "3. French DeGroot Opinion Pooling",
+          "value": "3-french-degroot-opinion-pooling",
+          "line": 29,
+          "column": 0,
+          "depth": 3
+        },
+        "31-french-degroot-model": {
+          "type": "header",
+          "text": "3.1. French DeGroot Model",
+          "value": "31-french-degroot-model",
+          "line": 47,
+          "column": 0,
+          "depth": 4
+        },
+        "32-models-history": {
+          "type": "header",
+          "text": "3.2. Model's history",
+          "value": "32-models-history",
+          "line": 73,
+          "column": 0,
+          "depth": 4
+        },
+        "33-algebraic-convergence-criteria": {
+          "type": "header",
+          "text": "3.3. Algebraic convergence criteria",
+          "value": "33-algebraic-convergence-criteria",
+          "line": 91,
+          "column": 0,
+          "depth": 4
+        },
+        "34-graph-theoretic-conditions": {
+          "type": "header",
+          "text": "3.4. Graph-theoretic conditions",
+          "value": "34-graph-theoretic-conditions",
+          "line": 110,
+          "column": 0,
+          "depth": 4
+        },
+        "35-dual-markov-chain": {
+          "type": "header",
+          "text": "3.5. Dual Markov Chain",
+          "value": "35-dual-markov-chain",
+          "line": 129,
+          "column": 0,
+          "depth": 4
+        },
+        "36-stubborness": {
+          "type": "header",
+          "text": "3.6. Stubborness",
+          "value": "36-stubborness",
+          "line": 155,
+          "column": 0,
+          "depth": 4
+        },
+        "4-abelsons-models": {
+          "type": "header",
+          "text": "4. Abelson's Models",
+          "value": "4-abelsons-models",
+          "line": 166,
+          "column": 0,
+          "depth": 3
+        },
+        "41-abelsons-models-of-opinion-dynamics": {
+          "type": "header",
+          "text": "4.1. Abelson’s models of opinion dynamics",
+          "value": "41-abelsons-models-of-opinion-dynamics",
+          "line": 171,
+          "column": 0,
+          "depth": 4
+        },
+        "42-convergence-and-consensus-conditions": {
+          "type": "header",
+          "text": "4.2. Convergence and consensus conditions",
+          "value": "42-convergence-and-consensus-conditions",
+          "line": 212,
+          "column": 0,
+          "depth": 4
+        },
+        "43-the-community-cleavage-problem": {
+          "type": "header",
+          "text": "4.3. The community cleavage problem",
+          "value": "43-the-community-cleavage-problem",
+          "line": 257,
+          "column": 0,
+          "depth": 4
+        },
+        "5-cleavage-and-prejudices-taylors-model": {
+          "type": "header",
+          "text": "5. Cleavage and Prejudices: Taylor’s model",
+          "value": "5-cleavage-and-prejudices-taylors-model",
+          "line": 266,
+          "column": 0,
+          "depth": 3
+        },
+        "liens-de-téléchargement": {
+          "type": "header",
+          "text": "Liens de téléchargement",
+          "value": "liens-de-téléchargement",
+          "line": 270,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "8zwrqcy9pi5s9uv92og7shj",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "wn8PE1RhG0znK1alrGFYv",
+      "title": "Bienvenue",
+      "desc": "",
+      "updated": 1647254605424,
+      "created": 1631901573363,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "eee5ccce21b99fee60b03a1c78fa5d32",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "8zwrqcy9pi5s9uv92og7shj",
+        "fi8aght0i04uix61wylkwmn"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\nCe site web est un guichet unique rassemblant tous les travaux liés à notre projet d'étude sur l'analyse dynamique des réseaux sociaux (DSNA).\n\n- [Description du projet](https://www.dropbox.com/s/lb4pdnt8gmrgxhu/IRP.Projet6.Sujet.pdf?dl=0)\n\n---\n\n> This website is generated by a Dendron template. For more information, see the [template README file](https://github.com/dendronhq/template.publish.github-action/)."
+    }
+  ],
+  "noteIndex": {
+    "id": "wn8PE1RhG0znK1alrGFYv",
+    "title": "Bienvenue",
+    "desc": "",
+    "updated": 1647254605424,
+    "created": 1631901573363,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": "vault"
+    },
+    "contentHash": "eee5ccce21b99fee60b03a1c78fa5d32",
+    "links": [],
+    "anchors": {},
+    "children": [
+      "8zwrqcy9pi5s9uv92og7shj",
+      "fi8aght0i04uix61wylkwmn"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "\nCe site web est un guichet unique rassemblant tous les travaux liés à notre projet d'étude sur l'analyse dynamique des réseaux sociaux (DSNA).\n\n- [Description du projet](https://www.dropbox.com/s/lb4pdnt8gmrgxhu/IRP.Projet6.Sujet.pdf?dl=0)\n\n---\n\n> This website is generated by a Dendron template. For more information, see the [template README file](https://github.com/dendronhq/template.publish.github-action/)."
+  },
+  "vaults": [
+    {
+      "fsPath": "vault"
+    }
+  ]
+}
