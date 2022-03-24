@@ -218,7 +218,7 @@ created: 1646917827407
 
 - **Main difference** with French-DeGroot: (12) **always convergent**
 
-> Corollary 15 (convergence)
+> **Corollary 15** (convergence)
 >
 > $A$ non-negative $\quad \wedge \quad \exist \;\; P^\infty = lim_{\,t\to\infty} \; e^{-L[A]t} \implies x(t) \xrightarrow[ k \to \infty]{} x^\infty = P^\infty x(0)$
 
@@ -228,7 +228,7 @@ created: 1646917827407
 
 - consensus $\implies$ $P^\infty = \mathbb{1}_n \; p_\infty^T$
 
-> Theorem 16 (consensus vs graph connectivity)
+> **Theorem 16** (consensus vs graph connectivity)
 >
 > (12) reaches _consensus_ $\iff$
 > 
@@ -242,9 +242,9 @@ created: 1646917827407
 
 - Discretization Method (from Abelson's model to French-DeGroot's model):
 
-> Lemma 17 (discretization)
+> **Lemma 17** (discretization)
 >
-> $\forall A$ non-negative $\quad\wedge\quad$ $\tau \geq 0$, $W_\tau = e^{-\tau L[A]$ **stochastic matrix** $\quad\wedge\quad$ $P^\infty = lim_{\,\tau\to\infty} W_\tau$ also **stochastic**
+> $\forall A$ non-negative $\quad\wedge\quad$ $\tau \geq 0$, $\quad W_\tau = e^{-\tau L[A]}$ **stochastic matrix** $\quad\wedge\quad$ $P^\infty = lim_{\,\tau\to\infty} W_\tau$ also **stochastic**
 >
 > Moreover, matrices $W_\tau$ have positive diagonal entries
 
